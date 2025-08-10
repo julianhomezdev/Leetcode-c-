@@ -1,0 +1,16 @@
+Two Sum - Dictionary Approach
+
+Time Complexity: O(n)
+- We iterate through the array only once.
+- Dictionary lookups and insertions take O(1) on average.
+- Overall, the time grows linearly with the input size.
+
+Space Complexity: O(n)
+- In the worst case, we store every element and its index in the dictionary.
+- The space used is proportional to the number of elements.
+
+Why this is efficient:
+- Avoids the O(n^2) cost of checking every pair with nested loops.
+- Uses extra memory (dictionary) to trade space for speed.
+
+

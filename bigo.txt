@@ -1,0 +1,33 @@
+Big O Cheat Sheet
+
+O(1) - Constant time
+Example: Accessing an array element by index.
+Time does not depend on input size.
+
+O(log n) - Logarithmic time
+Example: Binary search.
+Grows very slowly even for large inputs.
+
+O(n) - Linear time
+Example: Iterating through an array.
+Time grows in direct proportion to input size.
+
+O(n log n) - Linearithmic time
+Example: Merge Sort, QuickSort (average case).
+Common in efficient sorting algorithms.
+
+O(n^2) - Quadratic time
+Example: Nested loops.
+Becomes slow for large inputs.
+
+O(n^3) - Cubic time
+Example: Triple nested loops.
+Extremely slow for large inputs.
+
+O(2^n) - Exponential time
+Example: Recursive solutions for subsets.
+Impossible to handle for big inputs.
+
+O(n!) - Factorial time
+Example: Generating all permutations.
+Grows insanely fast.
