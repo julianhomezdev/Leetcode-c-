@@ -1,5 +1,5 @@
 using System;
-public class Solution
+public class Solutione
 {
     
     //
@@ -40,7 +40,7 @@ public class Program
     public static void Main()
     {
 
-        Solution sol = new Solution();
+        Solutione sol = new Solutione();
 
         int[] nums = { 3, 2, 4 };
         int target = 6;

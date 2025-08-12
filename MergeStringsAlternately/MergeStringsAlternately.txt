@@ -1,0 +1,19 @@
+Time Complexity: O(n + m)
+
+Recorremos ambas cadenas una sola vez hasta que una se acabe.
+
+Después, usamos Substring para copiar el sobrante, lo cual es O(k), siendo k la diferencia de longitudes.
+
+En total, el tiempo crece de forma lineal con respecto a la suma de las longitudes de las cadenas.
+
+Space Complexity: O(n + m)
+
+La cadena final contiene todos los caracteres de ambas palabras, por lo que su tamaño es proporcional a n + m.
+
+No usamos estructuras adicionales significativas aparte de la cadena resultante.
+
+Consideraciones de implementación:
+
+Usar string con += en C# implica que cada concatenación crea una nueva cadena, lo que en la práctica puede aumentar el tiempo a O((n + m)²) para entradas muy grandes.
+
+Para mantener la complejidad en O(n + m) real, es recomendable usar StringBuilder.
