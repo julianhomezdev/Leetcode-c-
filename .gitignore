@@ -1,0 +1,48 @@
+# Archivos binarios de compilación
+bin/
+obj/
+
+# Archivos de publicación
+publish/
+
+# Configuración de usuario
+*.user
+*.rsuser
+*.suo
+
+# Archivos de caché de VS
+.vs/
+
+# Paquetes NuGet descargados
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.snupkg
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Configuración generada
+launchSettings.json
+
+# Archivos de Rider/Resharper
+.idea/
+*.DotSettings.user
+
+# Archivos de cobertura y análisis
+coverage*
+*.coverage
+*.coveragexml
+
+# Archivos de dependencias locales
+project.lock.json
+project.fragment.lock.json
+
+# Archivos generados por herramientas
+Generated\ Files/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
