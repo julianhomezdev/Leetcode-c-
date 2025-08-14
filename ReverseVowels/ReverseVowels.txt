@@ -1,0 +1,8 @@
+Pensaba que era O(n)
+
+Pero no, List<T> y su metodo Insert(0, s[i]) y RemoveAt(0) mueven todo los elementos para poder agregar 
+el dicho en la posicion especifica esto cuesta O(k) donde k es la length de la lista,
+
+entonces seria
+
+O(n) * O(k) ≈ O(n²) en el peor caso
