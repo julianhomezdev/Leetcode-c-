@@ -24,13 +24,13 @@ public class Solution {
                 nums[slow] = nums[fast];
                 slow++;
             }
-        }
+        };
 
 
         for (int i = slow ; i < nums.Length ; i++)
         {
             nums[i] = 0;
-        }
+        };
 
     }
-}
+};
