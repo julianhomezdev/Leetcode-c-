@@ -1,0 +1,5 @@
+->   O( ∣t∣ + k ⋅ ∣s∣ log∣t∣)
+
+-> one for in t =  O(t)
+
+-> binary search , each list O( s log t)
