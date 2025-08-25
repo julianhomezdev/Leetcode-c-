@@ -1,27 +1,15 @@
+public class RecentCounter {
+    private Queue<int> queue;
 
-public class RecentCounter
-{
-
-
-    // Valid time range [t-3000, t]
-    // t -> time in miliseconds in the actually call
-    // t - 3000 -> low limit of the range
-    public RecentCounter()
-    {
-
-        int requests = 0;
-
+    public RecentCounter() {
+        queue = new Queue<int>();
     }
 
-    public int Ping(int t)
-    {
-        // Initialize the counter
-        RecentCounter();
+    public int Ping(int t) {
+        queue.Enqueue(t);
+        while (queue.Peek() < t - 3000) {
+            queue.Dequeue();
+        }
+        return queue.Count;
     }
 }
-
-/**
- * Your RecentCounter object will be instantiated and called as such:
- * RecentCounter obj = new RecentCounter();
- * int param_1 = obj.Ping(t);
- */
